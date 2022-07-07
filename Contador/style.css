@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container > #title {
+    color: #09e;
+    text-align: center;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 300px));
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.countdown li {
+    padding: 1rem;
+    color: #09e;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.countdown li span {
+    font-size: 4rem;
+}

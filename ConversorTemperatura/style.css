@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .container {
+     max-width: 100vw;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(90deg,rgba(0, 126, 174, .85), rgba(26, 193, 187, .85));
+    }
+
+ .box-conversor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .conversores {
+    background-color: #FFF;
+     border: 1px solid #000;
+     min-width: 400px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+
+ }
+
+ .title {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #FFF;
+ }
+
+ .inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .inputs input {
+    width: 80px;
+    padding: 5px;
+    outline: none
+ }
+
+ .formulas {
+    font-style: oblique;
+    background-color: yellow;
+    margin: 5px 0;
+    cursor: default;
+ }
+ 
+ .conversores input[type='submit'] {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #000;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ #botao-celsius {
+    background-color:midnightblue;
+ }
+
+ #botao-fahrenheit {
+    background-color: darkgreen;
+ }
+
+ #botao-fahrenheit-situacao {
+    background-color: firebrick;
+ }
+
