@@ -13,3 +13,11 @@
 <p>Calculadora simples, que efetua as 4 operações aritméticas fundamentais.</p>
 
 * `Adição, Subtração, Multiplicação, Divisão 🧮`
+
+<hr width = "100%">
+
+<h1>Contador ⏳</h1>
+
+<p>Contagem regressiva para a Copa do Mundo no Catar</p>
+
+* `Segunda-feira , 21 de novembro de 2022 ⚽🇧🇷`
